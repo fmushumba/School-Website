@@ -26,7 +26,7 @@ The school website includes the following features:
 1. Clone the repository to your local machine using the following command
 
 ```
-git clone [insert repository URL here]
+git clone [https://github.com/fmushumba/School-Website.git]
 ```
 
 2. Create an activate your virtual environment
