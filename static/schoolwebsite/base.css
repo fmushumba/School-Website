@@ -1,0 +1,165 @@
+main {
+
+    padding-bottom: 12em;
+
+
+}
+
+.site_navigation button:hover {
+    font-weight: 500;
+}
+
+header {
+    background-color: #022d1a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.site_navigation {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+button {
+    font-size: medium;
+    font-weight: 700;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 20px;
+    width: 12em;
+    color: #000
+}
+
+.History {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    color: #fff;
+    font-weight: 900;
+    background-image: url("img/8-Days-Primates-Safari-in-Rwanda.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 5in;
+    padding-top: 8px;
+
+}
+
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+
+#title_descr {
+    max-width: 600px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: normal;
+    margin-left: 1in;
+    border: 1px;
+    text-align: justify;
+    padding-top: 20px;
+
+
+
+}
+
+
+
+
+#submit {
+    background-color: #022d1a;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.school_name {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+
+.history-description {
+    line-height: normal;
+    font-size: 20px;
+    border: 1px;
+    max-width: 400px;
+}
+
+h1 {
+    color: #022d1a;
+    font-weight: 700;
+
+
+}
+
+
+
+
+#form {
+    line-height: 200%;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+    font-size: medium;
+    font-weight: 700;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 20px;
+    width: 12em
+}
+
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 12in;
+    padding-top: 10px;
+
+
+
+}
+
+th {
+    text-align: left;
+}
+
+table,
+td,
+th {
+    border: 1px solid #000;
+    border-collapse: collapse;
+
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+caption {
+    border: 1px solid #022d1a;
+    padding: 10px;
+    background-color: #022d1a;
+    color: #ffffff;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #033f24;
+}

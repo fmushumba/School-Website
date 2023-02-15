@@ -1,0 +1,45 @@
+{%extends 'base.html'%}
+
+{%block title%} Kigali Institue of Technology-Registration{%endblock%}
+
+{%block content%}
+        <main>
+            <h1> Create an account to start a new application</h1>
+            <h2>To register for an account please enter the following information</h2>
+
+            <form id="form" action="/create account">
+                <p>
+                    <label for="username"> Enter a Username: </label>
+                    <input id="username" type="text" placeholder="Username" required>
+                </p>
+                <p>
+                    <label for="first Name">First Name: </label>
+                    <input id="first Name" type="text" placeholder="John" required>
+                </p>
+                <p>
+                    <label for="last Name">Last Name: </label>
+                    <input id="last Name" type="text" placeholder="Doe" readonly>
+                </p>
+                <p>
+                    <label for="email">Email: </label>
+                    <input id="email" type="email" placeholder="Enter your email " required>
+                </p>
+                <p>
+                    <label for="DOB"> Birth Date</label>
+                    <input id="DOB" type="date" required>
+                </p>
+                <p>
+                    <label for="enrollment"> Enrollment semester</label>
+                    <select id="enrollment" required>
+                        <option value="Fall 2023">Fall 2023</option>
+                        <option value="Summer">Summer 2023</option>
+                        <option value="Spring 2024">Spring 2024</option>
+
+
+                        <button id="submit" name="registrationInfo">Continue </button>
+
+
+
+            </form>
+        </main>
+{%endblock%}

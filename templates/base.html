@@ -1,0 +1,38 @@
+{% load static%}
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Kigali Institue of Technology-welcome {% block title%} {%endblock%}</title>
+
+        <link href="{%static 'schoolwebsite/base.css' %}" rel="stylesheet" >
+    </head>
+
+
+
+
+    <body>
+        <header>
+
+
+            <div class="header">
+                <span class="school_name">Kigali Institute of Technology</span>&nbsp;
+                <nav class="site_navigation">
+
+                    <button id="home"><a href={% url 'home'%}>HOME</a></button> &nbsp;
+                    <button>OUR SCHOOL</button> &nbsp;
+                    <button>OUR TEACHERS</button> &nbsp;
+                    <button>FOR PARENTS</button> &nbsp;
+                    <button>OUR SPONSORS</button> &nbsp;
+                    <button>NEWS &amp EVENTS</button> &nbsp;
+                    <button id="admissions"><a href={% url 'registration'%}>ADMISSIONS</a></button>
+
+                </nav>
+            </div>
+        </header>
+        {%block content%}
+        {%endblock %}
+    </body>
